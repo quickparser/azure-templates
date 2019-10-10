@@ -52,7 +52,7 @@
         },
         "checkObjects": {
             "type": "bool",
-            "value": "[equals(parameters('firstObject'), {})]"
+            "value": "[equals(parameters('firstObject'), json(''))]"
         }
     }
 }
