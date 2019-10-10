@@ -52,7 +52,7 @@
         },
         "checkObjects": {
             "type": "bool",
-            "value": "[equals(length(parameters('secondObject')), 1)]"
+            "value": "[equals(length(parameters('firstObject')), 1)]"
         },
         "checkObjectsReturn": {
             "type": "string",
