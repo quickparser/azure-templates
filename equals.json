@@ -56,7 +56,7 @@
         },
         "checkObjectsReturn": {
             "type": "string",
-            "value": "[if(equals(length(parameters('secondObject')), 0), '0000', 'Not-empty')]"
+            "value": "[if(equals(length(parameters('secondObject')), 0), '0000', parameters('secondObject').a)]"
         }        
     }
 }
