@@ -52,7 +52,7 @@
         },
         "checkObjects": {
             "type": "bool",
-            "value": "[not(equals(length(parameters('firstObject')), 0))]"
+            "value": "[equals(length(parameters('firstObject')), 1)]"
         }
     }
 }
