@@ -28,11 +28,11 @@
         },
         "firstObject": {
             "type": "object",
-            "defaultValue": {"a": "b"}
+            "defaultValue": {}
         },
         "secondObject": {
             "type": "object",
-            "defaultValue": {}
+            "defaultValue": {"a": "b"}
         }
     },
     "resources": [
@@ -52,7 +52,7 @@
         },
         "checkObjects": {
             "type": "bool",
-            "value": "[equals(parameters('firstObject'), parameters('secondObject'))]"
+            "value": "[equals(parameters('firstObject'), {})]"
         }
     }
 }
