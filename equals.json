@@ -56,7 +56,7 @@
         },
         "converToArray": {
             "type": "array",
-            "value": "[if(greater(length(parameters('secondObject')), 0), parameters('secondObject').a)]"
+            "value": "[if(greater(length(parameters('secondObject')), 0), array(parameters('secondObject').a))]"
         }              
     }
 }
