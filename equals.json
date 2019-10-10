@@ -57,6 +57,10 @@
         "checkObjectsReturn": {
             "type": "string",
             "value": "[if(equals(length(parameters('firstObject')), 0), "", parameters('secondObject').a)]"
-        }        
+        },
+        "converToArray": {
+            "type": "array",
+            "value": "[array('null')]"
+        }              
     }
 }
